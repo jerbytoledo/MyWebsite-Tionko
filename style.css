@@ -1,0 +1,168 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+.navbar{
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	background-color: #C0C0C0;
+	position: sticky;
+	top: 0;
+}
+
+.navbar ul{
+	display: flex;
+	list-style: none;
+	margin: 20px 0px;
+}
+
+.navbar ul li{
+	font-family: sans-serif;
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	color: #000000;
+	padding: 8px 25px;
+	transition: all .5s ease;
+}
+
+.navbar ul li a:hover{
+	background-color: #000000;
+	color: #000000;
+	box-shadow: 00 10px #000000;
+}
+
+#home{
+	display: flex;
+	flex-direction: column;
+	background-color: #000000;
+	height: 840px;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+.main{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: absolute;
+	top:20%;
+}
+
+.main span{
+	text-transform: uppercase;
+	font-family: century;
+	text-align: center;
+	display: block;
+}
+
+.txt1 {
+	letter-spacing: 4px;
+	font-size: 55px;
+	color: #F8D9C6;
+	margin-bottom: 10px;
+	animation: text 3s 1;
+	background: Black;
+	position: relative;
+}
+
+.txt2 {
+	font-size: 30px;
+	color: #F8D9C6;
+}
+@keyframes text {
+	0%{
+		color: indigo;
+		margin-bottom: -40px;
+	}
+	30%{
+	letter-spacing: 20px;
+	margin-bottom: -40px;
+	}
+	85%{
+	letter-spacing: 4px;
+	margin-bottom: -40px;
+	}
+}
+#gallery{
+	display: flex;
+	flex-direction: column;
+	font-size: 30px;
+	background-color: #000000;
+	color: #F8D9C6;
+	padding: 60px;
+}
+
+.pic{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	box-sizing: border-box;
+}
+
+.pic img{
+	width: 360px;
+	height: 450px;
+	margin: 10px;
+}
+
+#contact{
+	display: flex;
+	flex-direction: column;
+	background-color: #000000;
+	font-size: 30px;
+	color: #F8D9C6;
+	padding: 60px;
+}
+
+#contact ul li a {
+	background-color:white;
+	padding: 0;
+	
+}
+
+
+#about{
+	display: flex;
+	flex-direction: column;
+	background-color: #000000;
+	font-size: 30px;
+	color: #F8D9C6;
+	padding: 60px;
+}
+
+#about img {
+	height: 300px;
+	width: 300px;
+	align-items: center;
+}
+
+#about p {
+	font-family:sans-serif;
+	font-size: 24px;
+}
+
+#about button {
+	position: relative; 
+	display: inline-block;
+	padding: 12px 36px;
+	margin: 10px 0;
+	text-decoration: none;
+	color: #000000;
+	text-transform: uppercase;
+	font-size: 12px;
+	Letter-spacing: 2px;
+	border-radius: 40px;
+	background: linear-gradient (90deg, #0162c8,#55e7fc);
+}

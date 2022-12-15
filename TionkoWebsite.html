@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Personal Website</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<nav class="navbar">
+		<ul>
+			<li><a href="#home">HOME</a></li>
+			<li><a href="#gallery">GALLERY</a></li>
+			<li><a href="#contact">CONTACT US</a></li>
+			<li><a href="#about">ABOUT ME</a></li>
+		</ul>
+	</nav>
+	
+	<section id="home">
+		<div class="main">
+			<span class="txt1"> WELCOME TO MY</span>
+			<span class="txt2">Personal Website</span>
+		</div>
+
+		<figure>
+		
+			<figcaption>Here's some music while scrolling through my website<br> <b>Drip or Drown - Gunna</b></figcaption>
+			
+				<video controls muted >
+					<source src="C:\Users\ASUS\Desktop\TIONKO\videoplayback.mp4" type="video/mp4"/>
+					<source src="C:\Users\ASUS\Desktop\TIONKO\videoplayback.mp4" type="video/ogg"/>
+
+            <p>
+                file type not supported
+                <a href="https://www.youtube.com/watch?v=Czs2B53M444">link of video</a>
+              </p>
+        </video>
+
+    </figure>
+	</section>
+	
+	<section id="gallery">
+		<h1 class="headings">GALLERY</h1>
+		<div class="pic">
+			<img src="C:\Users\ASUS\Desktop\TIONKO\image1.jpg" alt="">
+			<img src="C:\Users\ASUS\Desktop\TIONKO\image2.jpg" alt="">
+			<img src="C:\Users\ASUS\Desktop\TIONKO\image3.jpg" alt="">
+			<img src="C:\Users\ASUS\Desktop\TIONKO\image4.jpg" alt="">
+		</div>
+	</section>
+	
+	<section id="contact">
+		<div class="num">
+			<h1 class="headings">CONTACT US</h1>
+		</div>
+		
+		<p>MY LOCATION</p>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d981.7215410339675!2d120.88357533562032!3d14.
+		416924881388564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sgoogle%20maps!5e0!3m2!1sen!2sph!4v1671089011222!5m2!1sen!2sph" 
+		width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		
+		<ul>
+			<li>
+				<a href="https://www.facebook.com/jerby.toledo/">
+					<ion-icon name="logo-facebook"></ion-icon>
+				</a>
+				<a href="https://instagram.com/_jerbytoledo/">
+					<ion-icon name="logo-instagram"></ion-icon>	
+				</a>
+			</li>
+		</ul>
+		
+		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+		
+	</section>
+	<section id="about">
+		<div id="pic">
+			<h1 class="headings">ABOUT ME</h1>
+		</div>
+		
+		<img src="C:\Users\ASUS\Desktop\TIONKO\pfpjerby.jpg" alt="">
+		<p id="js">
+			My name is Kyle Jerby Toledo Tionko. My friends approach me as Kyle or Jerby, sometimes 
+			making their own nickname for me like jerbs or kylie. I was born on the 31th of March,
+			2003. It has been me and my mom, Josheryl Toledo, since then and it's the best thing I could ask for.
+		</p>
+		
+		<button type="button" onclick="document.getElementById('js').style.display='none'">Click to Hide</button>
+		<button type="button" onclick="document.getElementById('js').style.display='block'">Click to Unhide</button>
+
+	</section>	
+	
+</body>
+</html>
